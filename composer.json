@@ -1,0 +1,24 @@
+{
+    "name": "vendor/project",
+    "description": "A brief description of your project",
+    "require": {
+        "php": "^7.4 || ^8.0",
+        "slim/slim": "^4.0",
+        "slim/psr7": "^1.4",
+        "illuminate/database": "^8.0",
+        "selective/basepath": "^2.0",
+        "nyholm/psr7": "^1.4",
+        "slim/csrf": "^1.5",
+        "php-di/php-di": "^6.3",
+        "monolog/monolog": "^3.7",
+        "respect/validation": "^2.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "scripts": {
+        "start": "php -S localhost:8000 -t public"
+    }
+}
